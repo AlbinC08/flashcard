@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Inter-Bold";   /*Can be any text*/
+    src: local("Inter-Bold"),
+      url("./fonts/Inter/Inter-Bold.ttf") format("truetype");
+  }
+
+  * {
+    font-family: "Inter-Bold";
+  }

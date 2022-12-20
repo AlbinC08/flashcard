@@ -19,12 +19,16 @@ import {
   IonButton,
   IonInput,
   IonLabel,
+  IonFooter
 } from "@ionic/react";
 import axios from "axios";
 import "./Tab1.css";
 import { MouseEventHandler, useCallback, useEffect, useState } from "react";
 import ReactCardFlip from "react-card-flip";
 import Card from "../components/Card";
+
+import { IonBackButton, IonButtons, IonIcon, IonMenuButton } from '@ionic/react';
+import { create, ellipsisHorizontal, ellipsisVertical, helpCircle, search, personCircle, star } from 'ionicons/icons';
 
 type TypeCard = {
   id: number;
@@ -135,6 +139,7 @@ const Tab1: React.FC = () => {
           <IonButton type="submit" className="search-button">
             <img src="assets/icon/search.svg" alt="" />
           </IonButton>
+          
         </form>
 
         <div className="card-container">
@@ -147,6 +152,10 @@ const Tab1: React.FC = () => {
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle className="test" size="large">
+            
+ 
+    
+  
               Tab 1
             </IonTitle>
           </IonToolbar>

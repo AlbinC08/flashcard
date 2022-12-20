@@ -15,6 +15,7 @@ import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 
+import './app.css'
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
 
@@ -34,6 +35,8 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 import './theme/floating-tab-bar.css';
+
+import './fonts/Inter/Inter-Bold.ttf'
 
 setupIonicReact();
 
@@ -61,11 +64,11 @@ const App: React.FC = () => (
             <IonLabel>Tab 1</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={ellipse} />
+            <IonIcon icon={triangle} />
             <IonLabel>Tab 2</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={square} />
+            <IonIcon icon={triangle} />
             <IonLabel>Tab 3</IonLabel>
           </IonTabButton>
         </IonTabBar>

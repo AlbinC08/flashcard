@@ -1,0 +1,31 @@
+{
+    "cards": [
+    {
+        "id" : 1,
+        "title" : "La récursivité",
+        "definition" : "Une fonction qui s'appelle elle même",
+        "category" : {
+            "id" : 3,
+            "name" : "Concept de programmation"
+        }
+    },
+    {
+        "id" : 2,
+        "title" : "Les Traits",
+        "definition" : "Un trait est une sous-classe abstraite, un modèle conceptuel pour structurer des programmes orientés objets.C'est un ensemble de méthodes concrètes ou fonctions, pouvant être ajouté à une classe pour étendre ses fonctionnalités.",
+        "category" : {
+            "id" : 2,
+            "name" : "Définitions"
+        }
+    }
+], "category": [
+    {
+        "id" : 2,
+        "name" : "Définitions"
+    },
+    {
+        "id" : 3,
+        "name" : "Concept de programmation"
+    }
+]
+}
